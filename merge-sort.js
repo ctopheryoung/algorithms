@@ -25,6 +25,6 @@ function merge(left, right) {
   return [...sorted, ...left, ...right]
 }
 
-// console.log(mergeSort([10, 9, 8, 7, 6]))
-// console.log(mergeSort([4, 1, 9, 0]))
+console.log(mergeSort([10, 9, 8, 7, 6]))
+console.log(mergeSort([4, 1, 9, 0]))
 console.log(mergeSort([2, 1]))
